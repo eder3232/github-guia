@@ -39,3 +39,17 @@ Cuando se tiene una carpeta vacia y se le quiere dar seguimiento, se debe crear 
 ```{Bash}
 git status --short
 ```
+
+## Ver los cambios
+
+```{Bash}
+git diff
+```
+
+## Ver los cambios en el stage
+
+No se recomienda usar
+
+```{Bash}
+git diff --staged
+```
